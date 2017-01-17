@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "364171950094",
+    "firebase_url": "https://sendbirdloany.firebaseio.com",
+    "project_id": "sendbirdloany",
+    "storage_bucket": "sendbirdloany.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364171950094:android:3db3037a5a4525f7",
+        "android_client_info": {
+          "package_name": "com.loany.gmx.sendbirdloany"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364171950094-l786rbh6sdpkd5a0trqgl4nf9qurnkvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjmbkuVUQWT7iTKMMLcP6OBvvEzbKYO-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
