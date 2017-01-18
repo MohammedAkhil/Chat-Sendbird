@@ -9,8 +9,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.ParseObject;
+import com.sendbird.android.AdminMessage;
 import com.sendbird.android.BaseChannel;
+import com.sendbird.android.BaseMessage;
+import com.sendbird.android.FileMessage;
 import com.sendbird.android.OpenChannel;
+import com.sendbird.android.SendBird;
 import com.sendbird.android.SendBirdException;
 import com.sendbird.android.UserMessage;
 
@@ -24,6 +28,7 @@ public class OpenChatActivity extends AppCompatActivity {
     private OpenChannel mOpenChannel;
     private TextView text;
     private String userid;
+    private static final String identifier = "SendBirdOpenChat";
 
 
     @Override
@@ -39,6 +44,8 @@ public class OpenChatActivity extends AppCompatActivity {
         userid = getIntent().getStringExtra("User Name");
 
         OpenChannel(mChannelUrl);
+        RecieveMessages();
+
 
 
     }
@@ -106,6 +113,22 @@ public class OpenChatActivity extends AppCompatActivity {
                 text.setText(textmessage.getText().toString());
             }
         });
+    }
+
+    private void RecieveMessages() {
+        SendBird.addChannelHandler(identifier, new SendBird.ChannelHandler() {
+            @Override
+            public void onMessageReceived(BaseChannel baseChannel, BaseMessage baseMessage) {
+                if (baseMessage instanceof UserMessage) {
+                    text.setText(((UserMessage) baseMessage).getMessage().toString());
+                } else if (baseMessage instanceof FileMessage) {
+                    // item is a FileMessage
+                } else if (baseMessage instanceof AdminMessage) {
+                    // item is an AdminMessage
+                }
+            }
+        });
+
     }
 
 
