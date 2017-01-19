@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_90c3cebfe969a1924d4cbd46bd78610abff3b8a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"

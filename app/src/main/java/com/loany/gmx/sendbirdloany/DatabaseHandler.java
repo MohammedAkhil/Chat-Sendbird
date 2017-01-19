@@ -55,19 +55,17 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
 
         Cursor cursor = db.rawQuery(selectquery, null);
-        if(cursor.moveToFirst()) {
+        if (cursor.moveToFirst()) {
             do {
                 Message message = new Message();
                 message.setID(cursor.getString(0));
                 message.set_Message(cursor.getString(1));
                 messagelist.add(message);
-            } while(cursor.moveToNext());
+            } while (cursor.moveToNext());
         }
 
         return messagelist;
     }
-
-
 
 
 }

@@ -59,7 +59,8 @@
         </receiver>
 
         <activity android:name=".ListOpenChannel" />
-        <activity android:name=".OpenChatActivity"></activity>
+        <activity android:name=".OpenChatActivity" />
+        <activity android:name=".ListUsersActivity"></activity>
     </application>
 
 </manifest>
