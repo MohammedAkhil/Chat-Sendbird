@@ -12,6 +12,87 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_07013e89edd19d1833c9e8a9fc5527988277af88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_d1592f7df6d3d5050669e18479a6a70d84f96a3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Windows\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\gson-2.8.0_6887f12da2d36ea8ab774bb0bb09525b91451139.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_2da7c862eec08a52bfb971a7af96232ded67de29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.0_aa777ea11e7fa36662a6ec1bb02ecd299ac1eb63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.0.0_93ec8ab89ff6dc5bee01c3154051cd5317b34749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_342beec418963918f8c1daca25edfd4b782fd22e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Windows\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.1\5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a\parse-android-1.13.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\parse-android-1.13.1_fb87101aabbaed7599aff1617b46f689f954b517.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Windows\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_bdefc28bc288dcce7ac4b9115832b8773323f644.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,15 +120,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_07013e89edd19d1833c9e8a9fc5527988277af88.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -66,30 +138,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_d1592f7df6d3d5050669e18479a6a70d84f96a3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
         <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_525265022b27677a112196e742fbb9abfe3bf324.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_2da7c862eec08a52bfb971a7af96232ded67de29.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,24 +165,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.0_aa777ea11e7fa36662a6ec1bb02ecd299ac1eb63.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.0.0_93ec8ab89ff6dc5bee01c3154051cd5317b34749.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -144,24 +180,6 @@
         revision="25.0.2"
         sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
         <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.0.0_85ada958da43e721adeed238cc3a2cca63238f73.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\SendBird\Chat-Sendbird\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_342beec418963918f8c1daca25edfd4b782fd22e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Windows\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.1\5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a\parse-android-1.13.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\parse-android-1.13.1_fb87101aabbaed7599aff1617b46f689f954b517.jar" />
     </item>
     <item
         is-multidex="false"
@@ -189,15 +207,6 @@
         revision="25.0.2"
         sha1="c95a6324344ede08d0627969c44fc30d5dd60e7f">
         <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\sendbird-android-sdk-3.0.14_2960ff72c6de4f0de9a2617fa963d526eb10bdde.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Windows\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="E:\SendBird\Chat-Sendbird\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_bdefc28bc288dcce7ac4b9115832b8773323f644.jar" />
     </item>
     <item
         is-multidex="false"

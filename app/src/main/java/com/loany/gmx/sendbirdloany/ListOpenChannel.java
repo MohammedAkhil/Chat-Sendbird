@@ -2,6 +2,7 @@ package com.loany.gmx.sendbirdloany;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -156,9 +157,11 @@ public class ListOpenChannel extends AppCompatActivity {
         }
     }
 
-    public void ListUsers(){
-    }
+    public void ListUsers(View view){
+        Intent listusersIntent = new Intent(this, ListUsersActivity.class);
+        startActivity(listusersIntent);
 
+    }
 
     }
 

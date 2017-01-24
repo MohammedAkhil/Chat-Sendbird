@@ -8,9 +8,12 @@ import java.util.List;
  */
 
 public class UserList {
-    List<String> userlist = new ArrayList<String>();
 
-    UserList(String user) {
-        userlist.add(user);
+    List<UserDetails> users;
+    String next;
+
+    public List<UserDetails> getUsers() {
+        return users;
     }
+
 }
