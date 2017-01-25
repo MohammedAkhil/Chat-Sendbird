@@ -25,7 +25,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name="com.orm.SugarApp">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +38,11 @@
         <meta-data
             android:name="com.parse.push.gcm_sender_id"
             android:value="id:364171950094" />
+
+        <meta-data android:name="DATABASE" android:value="sugar_chat.db" />
+        <meta-data android:name="VERSION" android:value="2" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.loany.gmx.sendbirdloany" />
 
         <receiver
             android:name="com.parse.GcmBroadcastReceiver"
@@ -60,7 +66,8 @@
 
         <activity android:name=".ListOpenChannel" />
         <activity android:name=".OpenChatActivity" />
-        <activity android:name=".ListUsersActivity"></activity>
+        <activity android:name=".ListUsersActivity" />
+        <activity android:name=".GroupChannelActivity"></activity>
     </application>
 
 </manifest>

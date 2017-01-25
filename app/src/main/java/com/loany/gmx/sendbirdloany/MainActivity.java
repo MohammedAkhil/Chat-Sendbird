@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void Login(View view) {
         SendBirdLogin();
-        Intent intent = new Intent(MainActivity.this, ListOpenChannel.class);
-        intent.putExtra("User Name",Username.getText().toString());
+        Intent intent = new Intent(MainActivity.this, ListUsersActivity.class);
+        //intent.putExtra("User Name",Username.getText().toString());
         startActivity(intent);
 
     }

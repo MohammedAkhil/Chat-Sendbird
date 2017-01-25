@@ -1,8 +1,11 @@
 package com.loany.gmx.sendbirdloany;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -65,6 +68,21 @@ public class ListUsersActivity extends AppCompatActivity {
                         }
                         ArrayAdapter<String> adapter = new ArrayAdapter<>(ListUsersActivity.this,android.R.layout.simple_list_item_1,list);
                         listView.setAdapter(adapter);
+
+                        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position,
+                                                    long id) {
+                                //ListView user = (ListView) parent.getItemAtPosition(position);
+                                Intent intent = new Intent(ListUsersActivity.this, GroupChannelActivity.class);
+                                Log.d("user:",parent.getItemAtPosition(position).toString());
+                                intent.putExtra("UserName", parent.getItemAtPosition(position).toString());
+                                startActivity(intent);
+                            }
+                        });
+
+
+
                         //textView.setText(list);
                     }
                 }, new Response.ErrorListener() {
